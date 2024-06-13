@@ -172,7 +172,7 @@
                         <h2 class="fw-bold mb-3">Megathrusts Earthquake</h2>
                         <p class="mb-3">The researchers discovered high seismic activity on the southern coast of West Java Province and the southeastern part of Sumatra Island that could unleash a "megathrust" quake...</p>
                         <div class="d-flex justify-content-center">
-                            <a class="btn btn-info" href="https://www.thejakartapost.com/indonesia/2022/11/03/34-meter-tsunami-may-hit-indonesia-in-mega-quake-research.html">View details &raquo;</a>
+                            <a class="btn btn-info" href="https://en.antaranews.com/news/209881/watch-out-for-sunda-straits-megathrust-segment-bmkg">View details &raquo;</a>
                         </div>
                     </div><!-- /.col-lg-4 -->
 
