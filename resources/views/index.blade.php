@@ -212,9 +212,9 @@ map.addLayer(drawnItems);
 var drawControl = new L.Control.Draw({
 	draw: {
 		position: 'topleft',
-		polyline: true,
-		polygon: true,
-		rectangle: true,
+		polyline: false,
+		polygon: false,
+		rectangle: false,
 		circle: false,
 		marker: true,
 		circlemarker: false
@@ -325,16 +325,7 @@ var polyline = L.geoJson(null, {
                    "<div class='text-center'>" + 
                    "<img src='{{asset('storage/images/')}}/" + feature.properties.image + 
                    "' class='img-thumbnail' alt='...' width='200'>" + 
-                   "</div>" +
-                   "<div class='d-flex flex-row justify-content-center mt-3'>" +
-                   "<a href='{{url('edit-polyline')}}/" + feature.properties.id + 
-                   "' class='btn btn-sm btn-warning me-2'><i class='fa-solid fa-edit'></i></a>" +
-                   "<form action='{{url('delete-polyline')}}/" + feature.properties.id + 
-                   "' method='POST'>" + 
-                   '{{csrf_field()}}' + '{{method_field('DELETE')}}' + 
-                   "<button type='submit' class='btn btn-danger' onclick='return confirm(`Yakin Anda ingin menghapus data ini?`)'><i class='fa-solid fa-trash-can'></i></button>" +
-                   "</form>" +
-                   "</div>";
+                   "</div>" ;
 
 					layer.on({
 						click: function (e) {
@@ -367,16 +358,7 @@ var polygon = L.geoJson(null, {
                    "<div class='text-center'>" + 
                    "<img src='{{asset('storage/images/')}}/" + feature.properties.image + 
                    "' class='img-thumbnail' alt='...' width='200'>" + 
-                   "</div>" +
-                   "<div class='d-flex flex-row justify-content-center mt-3'>" +
-                   "<a href='{{url('edit-polygon')}}/" + feature.properties.id + 
-                   "' class='btn btn-sm btn-warning me-2'><i class='fa-solid fa-edit'></i></a>" +
-                   "<form action='{{url('delete-polygon')}}/" + feature.properties.id + 
-                   "' method='POST'>" + 
-                   '{{csrf_field()}}' + '{{method_field('DELETE')}}' + 
-                   "<button type='submit' class='btn btn-danger' onclick='return confirm(`Yakin Anda ingin menghapus data ini?`)'><i class='fa-solid fa-trash-can'></i></button>" +
-                   "</form>" +
-                   "</div>";
+                   "</div>" ;
 
 					layer.on({
 						click: function (e) {
