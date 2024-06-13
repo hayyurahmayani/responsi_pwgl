@@ -125,10 +125,10 @@ Website dibangun menggunakan **Leaflet JS** untuk menampilkan basemap peta dasar
 >![Tampilan update 2](drag_edit.png)
 >![Tampilan update 3](edit.png)
 >![Tampilan update 4](toast_update.png)
-*Tampilan hapus data*
+*Tampilan edit data*
 
 >![Tampilan hapus 1](delete1.png)
 >![Tampilan hapus 2](delete2.png)
-*Tampilan edit data*
+*Tampilan hapus data*
 
 >**Motivasi diri:** *Nothing is out of reach*
