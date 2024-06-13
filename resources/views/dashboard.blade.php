@@ -160,7 +160,7 @@
                         <h2 class="fw-bold mb-3">Areas Close to Indonesia Active Faults</h2>
                         <p class="mb-3">Where can I find out the location of active faults in Indonesia and how close is it from where we live? This website can help you to answer that question with GEE analysis.</p>
                         <div class="d-flex justify-content-center">
-                            <a class="btn btn-info" href="http://localhost/responsi/gempa.php">View details &raquo;</a>
+                            <a class="btn btn-info" href="https://gisact.org/geoplatform/map-of-areas-close-to-active-faults-in-indonesia/">View details &raquo;</a>
                         </div>
                     </div><!-- /.col-lg-4 -->
 
