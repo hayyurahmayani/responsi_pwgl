@@ -38,11 +38,11 @@
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
-                <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                <textarea class="form-control" id="description" name="description" rows="2"></textarea>
             </div>
             <div class="mb-3">
                 <label for="geom" class="form-label">Geometry</label>
-                <textarea class="form-control" id="geom_point" name="geom" rows="3" readonly></textarea>
+                <textarea class="form-control" id="geom_point" name="geom" rows="1" readonly></textarea>
             </div>
             <div class="mb-3">
                 <label for="image" class="form-label">Image</label>
@@ -50,7 +50,7 @@
             </div>
             <div class="mb-3">
                 <img src="" alt="Preview" id="preview-image-point"
-                class="img-thumbnail" width="400">
+                class="img-thumbnail" width="150">
             </div>
         </div>
         <div class="modal-footer">

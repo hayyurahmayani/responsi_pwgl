@@ -127,10 +127,10 @@ map.on('draw:edited', function(e) { //apabila telah membuat gambar, maka functio
 
 // Definisikan ikon kustom
 var customIcon = L.icon({
-            iconUrl: '{{ asset('storage/earthquake.png') }}', // Ganti dengan path ke ikon kustom Anda
+            iconUrl: '{{ asset('storage/disasters.png') }}', // Ganti dengan path ke ikon kustom Anda
             iconSize: [16, 16], // Ukuran ikon
-            /* iconAnchor: [16, 32], // Titik anchor (koordinat dalam ikon) untuk menentukan lokasi ikon di peta
-            popupAnchor: [0, -32] // Titik anchor untuk menentukan lokasi popup di atas ikon */
+            iconAnchor: [16, 32], // Titik anchor (koordinat dalam ikon) untuk menentukan lokasi ikon di peta
+            popupAnchor: [0, -32] // Titik anchor untuk menentukan lokasi popup di atas ikon
         });
 
 /* GeoJSON Point */
